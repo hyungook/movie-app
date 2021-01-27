@@ -18,7 +18,6 @@ const foodILike = [
     }, 
 ];
 
-
 function Food({name, picture}) {
   console.log(name);
   return <div>
