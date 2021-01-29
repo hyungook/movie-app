@@ -13,6 +13,7 @@ getMovies = async () => {
 }
 
 componentDidMount() {
+  
   this.getMovies();
 }
 
