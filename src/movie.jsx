@@ -9,10 +9,10 @@ const Movie = ({id, year, title, summary, poster, genres}) => {
             <h3 className="movie__title">{title}</h3>
             <h5 className="movie__year">{year}</h5>
             <ul className="genres">{genres.map((genres, index) =>(
-                <li key={index} className="genres__genre">{genres}</li>
+                <li key={index} className="movie__genres">{genres}</li>
             ))}</ul>
-            <p className="movie__summary">{summary}</p>
-        </div>s
+            <p className="movie__summary">{summary.slice(0, 180)} ...</p>
+        </div>
     </div>
 };
 
