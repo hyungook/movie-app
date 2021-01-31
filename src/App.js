@@ -3,6 +3,7 @@ import { HashRouter, Route } from "react-router-dom";
 import './app.css';
 import Home from "./routes/home";
 import About from "./routes/about";
+import Detail from "./routes/detail";
 import Navigation from "./components/navigation";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navigation />
       <Route path="/" exact={true} component={Home} />
       <Route path="/about" component={About} />
+      <Route path="/movie/:id" component={Detail} />
     </HashRouter>
   );
 }
