@@ -7,3 +7,5 @@ React JS Fundaemetals Course
 - npm i gh-pages
 - npm run build
 - npm run deploy
+
+Link: [Movie-app][https://hyungook.github.io/movie_app/]
